@@ -1,6 +1,6 @@
-# Nitrogen ❄️
+# Epsteinware
 
-Nitrogen is a modern, clean and feature-packed custom UI/wrapper for Hydrogen, MacSploit, and Opiumware with a sleek interface. It provides a streamlined experience for executing, managing, and discovering scripts.
+A joke fork of Nitrogen [nitrogen.lol](https://nitrogen.lol)
 
 🌐 **Website**: [nitrogen.lol](https://nitrogen.lol)
 
@@ -8,7 +8,7 @@ Nitrogen is a modern, clean and feature-packed custom UI/wrapper for Hydrogen, M
 
 - **Alt Manager** - Full-featured account manager with encrypted storage, one-click account switching, multi-instance support, import/export functionality, and automatic profile syncing with Roblox avatars
 - **Clean, Modern Interface** - A beautiful code editor with syntax highlighting and auto-completion
-- **Smart AI Assistant (NitroBot)** - Integrated AI-powered code generation and assistance with context-aware suggestions, code explanations, and intelligent help for all your scripting needs
+- **Sort of Smart AI Assistant (NitroBot)** - Integrated AI-powered code generation and assistance with context-aware suggestions, code explanations, and intelligent help for all your scripting needs
 - **ScriptBlox Integration** - Discover and use scripts directly from ScriptBlox
 - **Local Script Management** - Save, organize, rename, and delete your scripts
 - **Auto-Execute** - Configure scripts to run automatically when joining games
@@ -20,7 +20,7 @@ Nitrogen is a modern, clean and feature-packed custom UI/wrapper for Hydrogen, M
 
 ### Regular Installation (Recommended)
 
-Run the following command in Terminal:
+Run the following command in Terminal (NOT YET):
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/JadXV/Nitrogen/refs/heads/main/install.sh | bash
@@ -88,15 +88,8 @@ Whenever an update is available, rerun the regular installation script.
 ## 👨‍💻 Credits
 
 - Fully Developed & Maintained by JadXV
+- Forked by lotus
 
-## ❓ Troubleshooting
-
-- **Script Not Executing**: Make sure Roblox is running and you've joined a game
-- **Everything Else**: Contact me on Discord: `@JadXV.` <-- With the dot
-
-## ⚖️ Legal Disclaimer
-
-Nitrogen is designed for educational purposes only. Users are responsible for adhering to Roblox's Terms of Service.
 ## 📄 License
 
 See the [LICENSE](https://github.com/JadXV/Nitrogen/blob/main/LICENSE) file for details.
