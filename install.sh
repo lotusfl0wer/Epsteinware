@@ -2,7 +2,7 @@
 
 clear
 
-LATEST_VER=$(curl -fsSLI -o /dev/null -w '%{url_effective}' https://github.com/JadXV/Nitrogen/releases/latest | sed 's|.*/tag/||')
+LATEST_VER=$(curl -fsSLI -o /dev/null -w '%{url_effective}' https://github.com/lotusfl0wer/Epsteinware/releases/tag/Update | sed 's|.*/tag/||')
 echo "Latest version determined to be: $LATEST_VER"
 echo ""
 
@@ -20,8 +20,8 @@ else
 fi
 
 if [ -d "/Applications/Nitrogen.app" ]; then
-  echo "Nitrogen is already installed."
-  echo "Updating / Reinstalling Nitrogen..."
+  echo "Epsteinware is already installed."
+  echo "Updating / Reinstalling Epsteinware..."
   rm -rf /Applications/Nitrogen.app
 fi
 
@@ -50,13 +50,13 @@ rm -rf /tmp/Nitrogen*.app /tmp/Nitrogen-*.app /tmp/NitrogenCompressed
 
 echo "Downloading Nitrogen..."
 curl -fsSL "$Nitrogen_URL" -o "$TMP_ZIP" || {
-  echo "❌ Failed to download Nitrogen"
+  echo "❌ Failed to download Epsteinware"
   exit 1
 }
 
 echo "Unzipping Nitrogen..."
 unzip -o -q "$TMP_ZIP" -d /tmp || {
-  echo "❌ Failed to unzip Nitrogen"
+  echo "❌ Failed to unzip Epsteinware"
   exit 1
 }
 
@@ -67,7 +67,7 @@ mv "/tmp/NitrogenCompressed/$ARCH_FOLDER.app" "/tmp/Nitrogen.app" || {
 }
 
 mv "/tmp/Nitrogen.app" "/Applications" || {
-  echo "❌ Failed to move Nitrogen to Applications"
+  echo "❌ Failed to move Epsteinware to Applications"
   exit 1
 }
 
@@ -77,7 +77,7 @@ rm "$TMP_ZIP"
 rm -rf /tmp/NitrogenCompressed
 
 echo ""
-echo "✅ Nitrogen installed successfully!"
+echo "✅ Epsteinware installed successfully!"
 echo "You can now find Nitrogen in your Applications folder."
 
 open -a /Applications/Nitrogen.app
